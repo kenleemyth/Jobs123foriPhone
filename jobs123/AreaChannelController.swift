@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol AreaProtocol{
+    func onChangeArea(Area_id:String,Area_name:String)
+}
+
 class AreaChannelController: UIViewController ,UITableViewDataSource,UITableViewDelegate,HttpProtocol{
     
     @IBOutlet weak var areatv: UITableView!
@@ -17,7 +21,7 @@ class AreaChannelController: UIViewController ,UITableViewDataSource,UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         ehttp.delegat=self
-        ehttp.OnSearch("http://www.jobs123.cn/api.php/Index/area")
+        ehttp.OnSearch("http://www.jobs123.cn/api.php/Index/getAllCity")
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,15 +44,24 @@ class AreaChannelController: UIViewController ,UITableViewDataSource,UITableView
             reuseIdentifier: "areacell")
 
         let rowData:NSDictionary = self.AreaData[indexPath.row] as NSDictionary
-        //read info
+        
+       // cell.textLabel?.text
         cell.textLabel?.text = rowData["name"] as? String
-        println(rowData["name"])
+        //println(rowData["name"])
         return cell
         
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
         
+        
+         let rowData:NSDictionary = self.AreaData[indexPath.row] as NSDictionary
+        //get infomation back
+        let area_id:AnyObject? = rowData["id"] as AnyObject?
+        let area_name:AnyObject? = rowData["name"] as AnyObject?
+        
+        
+        //点击后返回
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 

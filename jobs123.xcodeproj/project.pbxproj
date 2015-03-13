@@ -16,6 +16,12 @@
 		B1A2FBE91A9836270065B9C8 /* jobs123Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2FBE81A9836270065B9C8 /* jobs123Tests.swift */; };
 		B1A2FBF31A98D33E0065B9C8 /* AreaChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2FBF21A98D33E0065B9C8 /* AreaChannelController.swift */; };
 		B1A2FBF71A98E34F0065B9C8 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2FBF61A98E34F0065B9C8 /* HttpController.swift */; };
+		B1E1AFE71AB18E300083A969 /* iocn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFE61AB18E300083A969 /* iocn@2x.png */; };
+		B1E1AFE91AB18E3A0083A969 /* iocn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFE81AB18E3A0083A969 /* iocn@3x.png */; };
+		B1E1AFEB1AB18E8E0083A969 /* iocn@2x_60.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFEA1AB18E8E0083A969 /* iocn@2x_60.png */; };
+		B1E1AFED1AB18EA20083A969 /* iocn@3x_60.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFEC1AB18EA20083A969 /* iocn@3x_60.png */; };
+		B1E1AFEF1AB18EC80083A969 /* iocn@2x_29.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFEE1AB18EC80083A969 /* iocn@2x_29.png */; };
+		B1E1AFF11AB18ED30083A969 /* iocn@3x_29.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E1AFF01AB18ED30083A969 /* iocn@3x_29.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,12 @@
 		B1A2FBE81A9836270065B9C8 /* jobs123Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobs123Tests.swift; sourceTree = "<group>"; };
 		B1A2FBF21A98D33E0065B9C8 /* AreaChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaChannelController.swift; sourceTree = "<group>"; };
 		B1A2FBF61A98E34F0065B9C8 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		B1E1AFE61AB18E300083A969 /* iocn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@2x.png"; path = "../../../../Downloads/logo40/scaled-at-200/iocn@2x.png"; sourceTree = "<group>"; };
+		B1E1AFE81AB18E3A0083A969 /* iocn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@3x.png"; path = "../../../../Downloads/logo40/scaled-at-300/iocn@3x.png"; sourceTree = "<group>"; };
+		B1E1AFEA1AB18E8E0083A969 /* iocn@2x_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@2x_60.png"; path = "../../../../Downloads/logo60/scaled-at-200/iocn@2x_60.png"; sourceTree = "<group>"; };
+		B1E1AFEC1AB18EA20083A969 /* iocn@3x_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@3x_60.png"; path = "../../../../Downloads/logo60/scaled-at-300/iocn@3x_60.png"; sourceTree = "<group>"; };
+		B1E1AFEE1AB18EC80083A969 /* iocn@2x_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@2x_29.png"; path = "../../../../Downloads/logo28/scaled-at-200/iocn@2x_29.png"; sourceTree = "<group>"; };
+		B1E1AFF01AB18ED30083A969 /* iocn@3x_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iocn@3x_29.png"; path = "../../../../Downloads/logo28/scaled-at-300/iocn@3x_29.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 		B1A2FBCD1A9836270065B9C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1E1AFF01AB18ED30083A969 /* iocn@3x_29.png */,
+				B1E1AFEE1AB18EC80083A969 /* iocn@2x_29.png */,
+				B1E1AFE81AB18E3A0083A969 /* iocn@3x.png */,
+				B1E1AFEC1AB18EA20083A969 /* iocn@3x_60.png */,
+				B1E1AFEA1AB18E8E0083A969 /* iocn@2x_60.png */,
+				B1E1AFE61AB18E300083A969 /* iocn@2x.png */,
 				B1A2FBCE1A9836270065B9C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -170,9 +188,11 @@
 				TargetAttributes = {
 					B1A2FBC91A9836270065B9C8 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VNH5J9U65J;
 					};
 					B1A2FBE11A9836270065B9C8 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VNH5J9U65J;
 						TestTargetID = B1A2FBC91A9836270065B9C8;
 					};
 				};
@@ -202,7 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A2FBD81A9836270065B9C8 /* Main.storyboard in Resources */,
+				B1E1AFE71AB18E300083A969 /* iocn@2x.png in Resources */,
+				B1E1AFED1AB18EA20083A969 /* iocn@3x_60.png in Resources */,
+				B1E1AFE91AB18E3A0083A969 /* iocn@3x.png in Resources */,
+				B1E1AFEB1AB18E8E0083A969 /* iocn@2x_60.png in Resources */,
 				B1A2FBDD1A9836270065B9C8 /* LaunchScreen.xib in Resources */,
+				B1E1AFEF1AB18EC80083A969 /* iocn@2x_29.png in Resources */,
+				B1E1AFF11AB18ED30083A969 /* iocn@3x_29.png in Resources */,
 				B1A2FBDA1A9836270065B9C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +394,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -379,6 +407,7 @@
 				INFOPLIST_FILE = jobs123Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jobs123.app/jobs123";
 			};
 			name = Debug;
@@ -387,6 +416,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -394,6 +425,7 @@
 				INFOPLIST_FILE = jobs123Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jobs123.app/jobs123";
 			};
 			name = Release;
@@ -417,6 +449,7 @@
 				B1A2FBEE1A9836270065B9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A2FBEF1A9836270065B9C8 /* Build configuration list for PBXNativeTarget "jobs123Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +458,7 @@
 				B1A2FBF11A9836270065B9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
