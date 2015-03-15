@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1A2FBCA1A9836270065B9C8 /* jobs123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jobs123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A2FBCA1A9836270065B9C8 /* 壹职网.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "壹职网.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A2FBCE1A9836270065B9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1A2FBCF1A9836270065B9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A2FBD21A9836270065B9C8 /* jobs123.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jobs123.xcdatamodel; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		B1A2FBCB1A9836270065B9C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1A2FBCA1A9836270065B9C8 /* jobs123.app */,
+				B1A2FBCA1A9836270065B9C8 /* 壹职网.app */,
 				B1A2FBE21A9836270065B9C8 /* jobs123Tests.xctest */,
 			);
 			name = Products;
@@ -156,7 +156,7 @@
 			);
 			name = jobs123;
 			productName = jobs123;
-			productReference = B1A2FBCA1A9836270065B9C8 /* jobs123.app */;
+			productReference = B1A2FBCA1A9836270065B9C8 /* 壹职网.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B1A2FBE11A9836270065B9C8 /* jobs123Tests */ = {
@@ -376,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jobs123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "壹职网";
 			};
 			name = Debug;
 		};
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = jobs123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "壹职网";
 			};
 			name = Release;
 		};
